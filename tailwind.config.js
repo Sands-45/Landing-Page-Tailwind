@@ -1,12 +1,26 @@
 module.exports = {
-  mode:"jit",
+  mode: "jit",
   purge: ["./public/**/*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "intro-Desktop": "url('/public/img/bg-intro-desktop.svg')",
+        "intro-Mobile": "url('/public/img/bg-intro-mobile.svg')",
+      },
+      backgroundSize: {
+        deskSize: "64rem",
+      },
+      backgroundPosition: {
+        deskPosition: "1rem -13rem",
+      },
+      fontFamily: {
+        headline: ["Public", "Sans"],
+      },
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
