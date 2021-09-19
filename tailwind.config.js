@@ -9,10 +9,10 @@ module.exports = {
         "intro-Mobile": "url('/public/img/bg-intro-mobile.svg')",
       },
       backgroundSize: {
-        deskSize: "64rem",
+        deskSize: "60rem",
       },
       backgroundPosition: {
-        deskPosition: "1rem -13rem",
+        deskPosition: "1rem -10rem",
       },
       fontFamily: {
         headline: ["Public", "Sans"],
